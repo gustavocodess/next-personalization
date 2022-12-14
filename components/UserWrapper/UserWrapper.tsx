@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const UserWrapper: React.FC = (props) => {
-  console.log('USER PROPS ', props)
+  // console.log('USER PROPS ', props)
   const name = props.user?.options?.product || ''
   const { sentence } = props
 
