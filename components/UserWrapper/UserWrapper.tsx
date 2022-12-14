@@ -5,6 +5,7 @@ export const UserWrapper: React.FC = (props) => {
   const name = props.user?.options?.product || ''
   const { sentence } = props
 
+  console.log('USER PROPS ')
   const finalText = sentence ? sentence.replace('[[user]]', name) : ''
 
   return (
